@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.active {
+	color: orange
+}
+
+.Header{
+  background-color: rgb(166, 151, 151);
+  padding: 10px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.Header > button{
+  width: 150px;
+  height: 50px;
+  background-color: gray;
+}
+.ProductsList{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+.ProductsItem{
+  background-color: gray;
+  border: 5px solid black;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.ProductsItem > img{
+  background-size: cover;
+  width: 25vw;
+  height: 25vw;
+}
+.Footer{
+  background-color: rgb(166, 151, 151);
+  padding: 10px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5px;
+}
